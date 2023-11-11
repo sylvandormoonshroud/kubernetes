@@ -66,9 +66,9 @@ import (
 )
 
 const (
-	poll            = 2 * time.Second
+	poll            = 5 * time.Second
 	pollLongTimeout = 11 * time.Minute
-	dRetryPeriod    = 2 * time.Second
+	dRetryPeriod    = 5 * time.Second
 	dRetryTimeout   = 11 * time.Minute
 )
 
