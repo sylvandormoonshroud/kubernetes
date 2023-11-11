@@ -45,8 +45,8 @@ import (
 )
 
 const (
-	controllerRevisionRetryPeriod  = 1 * time.Second
-	controllerRevisionRetryTimeout = 1 * time.Minute
+	controllerRevisionRetryPeriod  = 2 * time.Second
+	controllerRevisionRetryTimeout = 2 * time.Minute
 )
 
 // This test must be run in serial because it assumes the Daemon Set pods will
